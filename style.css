@@ -1,11 +1,27 @@
-header {
+#header {
 	width: 100%;
-	height: 515px;
+	height: 516px;
+	top: 0%;
 	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#header.imageOne {
 	background-image: url('britcollage.jpg');
 }
 
+#header.imageTwo {
+	background-image: url('field.jpg');
+}
+
+#header.imageThree {
+	background-image: url('hills.jpg');
+}
+
+
 h1 {
+	font-family: 'Roboto';
 	color: white;
 	font-size: 95px;
 	text-align: center;
@@ -14,6 +30,8 @@ h1 {
 }
 
 h3 {
+	font-family: 'Roboto';
+	font-weight: 300;
 	color: white;
 	font-size: 65px;
 	text-align: center;
