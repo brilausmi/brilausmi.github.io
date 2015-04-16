@@ -1,6 +1,14 @@
+/*colors i like
+teal: #26b89a;
+light teal: #aef0d3;
+peach: #f1ddbb;
+coral: #ec6766;
+bright orange: #e74c3c;
+*/
+
 
 body {
-	background-image: url('halftone.png');
+	background-color: white;
 	margin: 0;
 }
 #nav{
@@ -9,11 +17,11 @@ body {
 	width: 100%;
 	height: 80px;
 	top: 0%;
-	background-color: black;
+	background-color: #26b89a;
 	position: fixed;
 	float: left;
 	font-family: 'Roboto';
-	color: white;
+	color: #f1ddbb;
 	font-size: 26px;
 	z-index: 99;
 }
@@ -67,7 +75,8 @@ h3 {
 	font-size: 65px;
 	text-align: center;
 	font-family: sans-serif;
-	margin-bottom:5em;
+	margin-bottom: 5em;
+	padding: 10px;
 }
 
 h2 {
@@ -97,6 +106,8 @@ ul.rig {
 	font-size: 0px;
 	margin-left: -5%;
 	width: 100%;
+	text-align: center;
+
 }
 
 ul.rig li {
@@ -104,12 +115,14 @@ ul.rig li {
 	margin-top: 5em;
 	display: inline-block;
 	padding: 10px;
-	margin: 0 0 2.5% 2.5%;
+	margin: 0 0 5% 2.5%;
+	background-color: white;
 	border: 1px solid #ddd;
 	font-size: 16px;
 	font-size: 1rem;
 	box-shadow: 0 0 5px #ddd;
 	-webkit-box-sizing: border-box;
+	text-align: left;
 }
 
 ul.rig li img {
@@ -119,10 +132,12 @@ ul.rig li img {
 	object-fit: cover;
 }
 
+
 ul.rig li h3 {
-	color: #555555;
 	margin: 0 0 5px;
 	font-size: 25px;
+	padding: 0;
+	color: #ed4e6e;
 }
 
 ul.rig.columns-3 li {
@@ -133,6 +148,19 @@ ul.rig.columns-4 li {
 	width: 22.5%;
 }
 
+.footer {
+	display: block;
+	left: 0;
+	width: 100%;
+	height: 80px;
+	bottom: 0%;
+	background-color: #26b89a;
+	float: left;
+	font-family: 'Roboto';
+	color: #f1ddbb;
+	font-size: 26px;
+	z-index: 99;
+}
 
 /* media queries woot */
 
