@@ -20,8 +20,9 @@ body {
 	background-color: #26b89a;
 	position: fixed;
 	float: left;
-	font-family: 'Roboto';
+	font-family: 'Roboto' !important; 
 	color: #f1ddbb;
+	font-weight: 300;
 	font-size: 26px;
 	z-index: 99;
 }
@@ -47,15 +48,15 @@ body {
 }
 
 #header.imageOne {
-	background-image: url('britcollage.jpg');
+	background-image: url('img/britcollage.jpg');
 }
 
 #header.imageTwo {
-	background-image: url('field.jpg');
+	background-image: url('img/field.jpg');
 }
 
 #header.imageThree {
-	background-image: url('hills.jpg');
+	background-image: url('img/hills.jpg');
 }
 
 
@@ -81,13 +82,31 @@ h3 {
 
 h2 {
 	font-family: 'Roboto';
-	font-weight: 300;
 	color: black;
 	font-size: 30px;
 	text-align: center;
-	padding: 2em;
+	padding: 5px;
 }
 
+#title {
+	font-family: 'Roboto';
+	color: #aef0d3;
+	font-size: 80px;
+	text-align: left;
+	padding-left: 1em;
+}
+
+#titledescription {
+	font-family: 'Roboto';
+	font-weight: 300;
+	color: #ec6766;
+	font-size: 20px;
+	text-align: left;
+	position: absolute;
+	z-index: 40;
+	padding-left: 24em;
+	margin-top: -6em;
+}
 
 #portfolio {
 	width: 80%;

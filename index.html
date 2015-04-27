@@ -1,21 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+
+	<title>Brilausmi</title>
 	<link type="text/css" rel="stylesheet" href="style.css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,700' rel='stylesheet' type='text/css'>
 
-<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="/fancyBox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+    <link rel="stylesheet" href="fancyBox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancyBox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+<!-- Optionally add helpers - button, thumbnail and/or media-->
+    <link rel="stylesheet" href="/fancyBox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="/fancyBox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="/fancyBox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+    <link rel="stylesheet" href="/fancyBox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+    <script type="text/javascript" src="/fancyBox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script> 
+
 
 </head>
-<body>
 
+
+
+<body>
+<a name ="home"></a>
 <div id="container">
 
     <div id='nav'>
         <ul>
-            <li><a href ="brilausmi.github.io">HOME</a></li>
+            <li><a href ="#home">HOME</a></li>
             <li><a href ="#portfolio">PORTFOLIO</a></li>
             <li><a href ="#about">ABOUT</a></li>
         </ul>
@@ -28,33 +48,36 @@
 
 </div>
 
-    <div id='portfolio'>
-        <a name ="portfolio"><h2> PORTFOLIO </h2></a>
+   
+        <a name ="portfolio"><h2 id ="title"> PORTFOLIO </h2></a>
+        <!-- <h5 id ="titledescription"> check out my work! </h5> -->
 
-
+ <div id='portfolio'>
         <ul class="rig columns-3">
+       
         <li>
-            <img src="placeholder1.jpg" />
+            <a class="fancybox" rel="group" href="img/placeholder1.jpg"><img src="img/placeholder1.jpg" /> </a>
             <h3>Placeholder Tiles</h3>
+            
         </li>
          <li>  
-            <img src="hexagon poster.jpg" />
+            <img src="img/hexagon poster.jpg" />
             <h3>Create Poster</h3>
         </li>
          <li>
-            <img src="britcollage.jpg" />
+            <img src="img/britcollage.jpg" />
             <h3>Disfigured & Refigured</h3>
         </li>
          <li>
-            <img src="portraitwithbranches.jpg" />
+            <img src="img/portraitwithbranches.jpg" />
             <h3>Portrait with Branches</h3>
         </li>
         <li>
-            <img src="placeholder2.jpg" />
+            <img src="img/placeholder2.jpg" />
             <h3>Image Title</h3>
         </li>
          <li>
-            <img src="placeholder3.jpg" />
+            <img src="img/placeholder3.jpg" />
             <h3>Image Title</h3>
         </li>
 
@@ -62,8 +85,8 @@
     </div>
 
     <div id="about">
-        <a name ="about"><h2> ABOUT </h2></a>
-
+        <a name ="about"><h2 id ="title"> ABOUT </h2></a>
+        <!-- <h5 id ="titledescription"> check out my work! </h5> -->
     </div>
 
 <div class='footer'></div>
@@ -96,7 +119,11 @@ headerObj.onclick = function(e){
     updateIndex();
 }
 
-
+// yo
+    $(document).ready(function() {
+        $(".fancybox").fancybox();
+    });
+//
 
 </script>
 <!--JAVASCRIPT YO-->
