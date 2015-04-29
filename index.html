@@ -61,32 +61,44 @@
             
         </li>
          <li>  
-            <img src="img/hexagon poster.jpg" />
+            <a class="fancybox" rel="group" href="img/hexagon poster.jpg"><img src="img/hexagon poster.jpg" /> </a>
             <h3>Create Poster</h3>
         </li>
          <li>
-            <img src="img/britcollage.jpg" />
+            <a class="fancybox" rel="group" href="img/britcollage.jpg"><img src="img/britcollage.jpg" /> </a>
             <h3>Disfigured & Refigured</h3>
         </li>
          <li>
-            <img src="img/portraitwithbranches.jpg" />
+            <a class="fancybox" rel="group" href="img/portraitwithbranches.jpg"><img src="img/portraitwithbranches.jpg" /> </a>
             <h3>Portrait with Branches</h3>
         </li>
         <li>
-            <img src="img/placeholder2.jpg" />
-            <h3>Image Title</h3>
+            <a class="fancybox" rel="group" href="img/antoniopdffixed.jpg"><img src="img/antoniopdffixed.jpg" /> </a>
+            <h3>Guest Speaker Poster</h3>
         </li>
          <li>
-            <img src="img/placeholder3.jpg" />
-            <h3>Image Title</h3>
+            <a class="fancybox" rel="group" href="img/menujpg.jpg"><img src="img/menujpg.jpg" /> </a>
+            <h3>Pisanello's Take-Out Menu Redesigned</h3>
         </li>
-
+         <li>
+            <a class="fancybox" rel="group" href="img/portraitwithbranches.jpg"><img src="img/portraitwithbranches.jpg" /> </a>
+            <h3>Portrait with Branches</h3>
+        </li>
+        <li>
+            <a class="fancybox" rel="group" href="img/antoniopdffixed.jpg"><img src="img/antoniopdffixed.jpg" /> </a>
+            <h3>Guest Speaker Poster</h3>
+        </li>
+         <li>
+            <a class="fancybox" rel="group" href="img/menujpg.jpg"><img src="img/menujpg.jpg" /> </a>
+            <h3>Pisanello's Take-Out Menu Redesigned</h3>
+        </li>
         </ul>
     </div>
 
     <div id="about">
         <a name ="about"><h2 id ="title"> ABOUT </h2></a>
         <!-- <h5 id ="titledescription"> check out my work! </h5> -->
+        <a class="fancybox" data-fancybox-type="iframe" href="img/sneekposterpdf.pdf">Test pdf</a>
     </div>
 
 <div class='footer'></div>
@@ -124,6 +136,14 @@ headerObj.onclick = function(e){
         $(".fancybox").fancybox();
     });
 //
+
+$(".fancybox").fancybox({
+    openEffect  : 'none',
+    closeEffect : 'none',
+    iframe : {
+        preload: false
+    }
+});
 
 </script>
 <!--JAVASCRIPT YO-->
