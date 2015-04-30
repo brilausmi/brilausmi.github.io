@@ -200,10 +200,54 @@ ul.rig.columns-4 li {
 	margin-bottom: 3em;
 }
 
+#about a {
+	font-family: 'Roboto';
+	color: #ec6766;
+	font-weight: 300;
+	font-size: 2em;
+	text-decoration: none;
+}
+
+#about a:link a:visited {
+	font-family: 'Roboto';
+	color: #ec6766;
+	font-weight: 300;
+	font-size: 2em;
+}
+
+#about a:hover, a:active {
+	color: #26b89a;
+	text-decoration: none;
+}
+
 #about p {
 	font-family: 'Roboto';
 	color: black;
 	font-size: 1em;
+}
+
+#contact {
+	width: 80%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	margin-bottom: 3em;
+}
+
+
+#contact p {
+	font-family: 'Roboto';
+	color: black;
+	font-size: 1em;
+}
+
+.hidden {
+	display: none;
+}
+
+.fancybos-title {
+	padding: 0 0 10px 0;
 }
 
 /* media queries woot */
