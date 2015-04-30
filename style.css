@@ -88,6 +88,14 @@ h2 {
 	padding: 5px;
 }
 
+h4 {
+	font-family: 'Roboto';
+	color: #f1ddbb;
+	font-size: 30px;
+	text-align: center;
+	padding: 5px 0 5px 0;
+}
+
 #title {
 	font-family: 'Roboto';
 	color: #aef0d3;
@@ -136,7 +144,7 @@ ul.rig li {
 	padding: 10px;
 	margin: 0 0 5% 2.5%;
 	background-color: white;
-	border: 1px solid #ddd;
+	border: 2px solid #aef0d3;
 	font-size: 16px;
 	font-size: 1rem;
 	box-shadow: 0 0 5px #ddd;
@@ -145,8 +153,9 @@ ul.rig li {
 }
 
 ul.rig li img {
-	height: 300px;
-	width: 300px;
+	padding-left: 4px;
+	height: 250px;
+	width: 250px;
 	margin: 0 0 10px;
 	object-fit: cover;
 }
@@ -154,13 +163,14 @@ ul.rig li img {
 
 ul.rig li h3 {
 	margin: 0 0 5px;
-	font-size: 15px;
+	font-size: 10px;
 	padding: 0;
 	color: #ed4e6e;
 }
 
 ul.rig.columns-3 li {
-	width: 30.83%;
+	width: 280px;
+	height: 280px;
 }
 
 ul.rig.columns-4 li {
@@ -179,6 +189,21 @@ ul.rig.columns-4 li {
 	color: #f1ddbb;
 	font-size: 26px;
 	z-index: 99;
+}
+
+#about {
+	width: 80%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	margin-bottom: 3em;
+}
+
+#about p {
+	font-family: 'Roboto';
+	color: black;
+	font-size: 1em;
 }
 
 /* media queries woot */
