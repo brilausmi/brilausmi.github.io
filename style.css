@@ -246,8 +246,35 @@ ul.rig.columns-4 li {
 	display: none;
 }
 
-.fancybos-title {
+.fancybox-title {
 	padding: 0 0 10px 0;
+}
+
+#contact ul {
+	list-style: none;
+	display: block;
+	float: left;
+	left: 0;
+	width: 100%;
+}
+
+#contact li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+	position: relative;
+}
+
+#contact a:link a:visited {
+	color: #ec6766;
+}
+
+#contact a:hover, a:active {
+	color: #26b89a;
+	text-decoration: none;
+}
+
+.fa {
+	color: #ec6766;
 }
 
 /* media queries woot */
